@@ -1,0 +1,3 @@
+This Python script decodes a message from a file. The `decode` function takes a filename as an argument, reads the file line by line, and sorts the lines based on the integer at the beginning of each line.
+It then iterates over the sorted lines. For each line, if the number at the beginning of the line equals the sum of all previous numbers (starting from 1), it adds the word from that line to the message.
+The function returns the decoded message as a string, with the words separated by spaces. The script then calls this function with 'input.txt' as the argument and prints the resulting message.
